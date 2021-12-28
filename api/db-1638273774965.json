@@ -1,0 +1,183 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 2,
+      "productName": "Kurutmalık Acı Biber",
+      "quantityPerUnit": "50 adet",
+      "unitPrice": "30",
+      "unitsInStock": 53
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "productName": "Kurutmalık Patlıcan",
+      "quantityPerUnit": "50 adet",
+      "unitPrice": "40",
+      "unitsInStock": 17
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "productName": "Kurutmalık Tatlı Biber",
+      "quantityPerUnit": "50 adet",
+      "unitPrice": "30",
+      "unitsInStock": 53
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "productName": "Acı Biber Salçası",
+      "quantityPerUnit": "1 Kilo",
+      "unitPrice": "50",
+      "unitsInStock": 3
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "productName": "Tatlı Biber Salçası",
+      "quantityPerUnit": "1 kilo",
+      "unitPrice": "45",
+      "unitsInStock": 120
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "productName": "Taze Antep Fıstığı",
+      "quantityPerUnit": "1 kilo",
+      "unitPrice": 60,
+      "unitsInStock": 15
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "productName": "Domates Salçası",
+      "quantityPerUnit": "1 kilo",
+      "unitPrice": 40,
+      "unitsInStock": 100
+    },
+    {
+      "id": 9,
+      "categoryId": 3,
+      "productName": "Tuzlu Antep Fıstığı",
+      "quantityPerUnit": "1 kio",
+      "unitPrice": 120,
+      "unitsInStock": 29
+    },
+    {
+      "id": 10,
+      "categoryId": 3,
+      "productName": "File Antep Fıstığı",
+      "quantityPerUnit": "100 gram",
+      "unitPrice": 28,
+      "unitsInStock": 31
+    },
+    {
+      "id": 11,
+      "categoryId": 3,
+      "productName": "Kuru Kırmızı Kabuklu Antep Fıstığı",
+      "quantityPerUnit": "1 kilo",
+      "unitPrice": 78,
+      "unitsInStock": 22
+    },
+    {
+      "id": 12,
+      "categoryId": 3,
+      "productName": "Fıstık Kıracağı",
+      "quantityPerUnit": "1 adet",
+      "unitPrice": 25,
+      "unitsInStock": 22
+    },
+    {
+      "id": 13,
+      "categoryId": 4,
+      "productName": "Fıstıklı Antep Baklavası",
+      "quantityPerUnit": "1 tepsi (1150 gr)",
+      "unitPrice": 175,
+      "unitsInStock": 22
+    },
+    {
+      "id": 14,
+      "categoryId": 4,
+      "productName": "Fıstıklı Midye Baklava",
+      "quantityPerUnit": "1 tepsi (1150 gr)",
+      "unitPrice": 235,
+      "unitsInStock": 22
+    },
+    {
+      "id": 15,
+      "categoryId": 4,
+      "productName": "Fıstıklı Havuç Dilim Baklava",
+      "quantityPerUnit": "1 tepsi (1150 gr)",
+      "unitPrice": 185,
+      "unitsInStock": 20
+    },
+    {
+      "id": 16,
+      "categoryId": 4,
+      "productName": "Fıstıklı Burma Kadayıf",
+      "quantityPerUnit": "2 kilo tepsi",
+      "unitPrice": 250,
+      "unitsInStock": 22
+    },
+    {
+      "id": 17,
+      "categoryId": 5,
+      "productName": "Türk Kahvesi",
+      "quantityPerUnit": "250 gram paket",
+      "unitPrice": 40,
+      "unitsInStock": 70
+    },
+    {
+      "id": 18,
+      "categoryId": 5,
+      "productName": "Menengiç Kahvesi",
+      "quantityPerUnit": "600 ml kavanoz",
+      "unitPrice": 40,
+      "unitsInStock": 32
+    },
+    {
+      "id": 19,
+      "categoryId": 5,
+      "productName": "Osmanlı Kahvesi",
+      "quantityPerUnit": "250 gram paket",
+      "unitPrice": 35,
+      "unitsInStock": 70
+    },
+    {
+      "id": 20,
+      "categoryId": 5,
+      "productName": "Dibek Kahvesi",
+      "quantityPerUnit": "250 gram paket",
+      "unitPrice": 35,
+      "unitsInStock": 40
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Kurutulmuş Ürünler",
+      "seoUrl": "kurutulmus-urunler"
+    },
+    {
+      "id": 2,
+      "categoryName": "Salçalar",
+      "seoUrl": "salcalar"
+    },
+    {
+      "id": 3,
+      "categoryName": "Antep Fıstığı",
+      "seoUrl": "antep-fıstıgı"
+    },
+    {
+      "id": 4,
+      "categoryName": "Tatlılar",
+      "seoUrl": "tatlilar"
+    },
+    {
+      "id": 5,
+      "categoryName": "Kahveler",
+      "seoUrl": "kahveler"
+    }
+  ]
+}
