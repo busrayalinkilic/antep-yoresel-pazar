@@ -19,7 +19,7 @@ class CategoryList extends Component {
     return (
       <div>
         <h3>
-          <Badge color="warning">Kategoriler</Badge>{" "}
+          <Badge color="success">Kategoriler</Badge>{" "}
         </h3>
         <ListGroup>
           {this.props.categories.map((category) => (
@@ -58,5 +58,6 @@ function mapDispatchToProps(dispatch) {
     },
   };
 }
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(CategoryList);

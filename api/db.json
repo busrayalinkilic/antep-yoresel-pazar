@@ -7,6 +7,7 @@
       "quantityPerUnit": "50 adet",
       "unitPrice": "30",
       "unitsInStock": 53
+    
     },
     {
       "id": 2,
@@ -23,6 +24,8 @@
       "quantityPerUnit": "50 adet",
       "unitPrice": "30",
       "unitsInStock": 53
+      
+
     },
     {
       "id": 5,

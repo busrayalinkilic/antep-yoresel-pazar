@@ -20,7 +20,7 @@ class ProductList extends Component {
     return (
       <div>
         <h3>
-          <Badge color="warning">Ürünler</Badge>
+          <Badge color="info">Ürünler</Badge>
           <Badge color="success">
             {this.props.currentCategory.categoryName}
           </Badge>
@@ -44,6 +44,7 @@ class ProductList extends Component {
                 <td>{product.unitPrice}</td>
                 <td>{product.quantityPerUnit}</td>
                 <td>{product.unitsInStock}</td>
+               
                 <td>
                   <Button color="success" onClick={()=>this.addToCart(product)}>
                     Ekle
