@@ -13,6 +13,7 @@ class CartDetail extends Component {
   render() {
     return (
       <div>
+        <div align="center"><img src="https://imgyukle.com/f/2022/01/20/oGBxBn.png" width={400} height={400}></img></div>
         <Table>
           <thead>
             <tr>
@@ -42,6 +43,7 @@ class CartDetail extends Component {
             ))}
           </tbody>
         </Table>
+        
       </div>
     );
   }

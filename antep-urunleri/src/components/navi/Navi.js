@@ -28,8 +28,8 @@ export default class Navi extends React.Component {
 
   render() {
     return (
-      <div>
-        <Navbar color="light" light expand="md">
+      <div >
+        <Navbar  light expand="md">
           <NavbarBrand href="/">
             {" "}
              <img
@@ -50,14 +50,19 @@ export default class Navi extends React.Component {
                 <NavLink href="https://github.com/busrayalinkilic">
                   GitHub
                 </NavLink>
+              
               </NavItem>
 
               <CartSummary></CartSummary>
+              <NavItem>
+                <NavLink href="https://imgyukle.com/f/2022/01/21/omsDxI.png">İletişim Bilgileri</NavLink>
+              </NavItem>
+              
             </Nav>
           </Collapse>
         </Navbar>
 
-            <div align="center"><img src="https://imgyukle.com/f/2022/01/20/oGBxBn.png" width={400} height={400}></img></div>
+            
         
 
         <br></br>
