@@ -22,7 +22,7 @@ const SelectInput = ({
         {options.map((option) => {
           return (
             <option key={option.value} value={option.value}>
-              {option.key}
+              {option.text}
             </option>
           );
         })}
@@ -31,3 +31,4 @@ const SelectInput = ({
     </div>
   );
 };
+export default SelectInput;
