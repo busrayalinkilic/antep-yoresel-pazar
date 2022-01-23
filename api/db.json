@@ -207,14 +207,6 @@
       "quantityPerUnit": "1 kilo",
       "unitPrice": "20",
       "unitsInStock": 12
-    },
-    {
-      "categoryId": 1,
-      "id": 28
-    },
-    {
-      "categoryId": 2,
-      "id": 29
     }
   ],
   "categories": [

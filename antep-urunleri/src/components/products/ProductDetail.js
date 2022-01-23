@@ -49,7 +49,7 @@ const ProductDetail = ({categories, product, onSave, onChange}) => {
       ></SelectInput>
 
       <button type="submit" className="btn btn-success">
-        Save
+        Kaydet
       </button>
     </form>
   );
