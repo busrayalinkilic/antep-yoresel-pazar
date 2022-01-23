@@ -29,6 +29,12 @@ function AddOrUpdateProduct({
       ...previousProduct,
       [name]: name === "categoryId" ? parseInt(value, 10) : value,
     }));
+    if(name==="productName" && value===""){
+      setErrors(previousErrors=>({...previousErrors,productName:"Ürün ismi olmalıdır"}))
+    }
+   
+    
+    
   }
   function handleSave(event) {
     event.preventDefault();
