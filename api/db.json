@@ -5,7 +5,7 @@
       "categoryId": 1,
       "productName": "Kurutmalık Acı Biber",
       "quantityPerUnit": "50 adet",
-      "unitPrice": "30",
+      "unitPrice": "35",
       "unitsInStock": 53
     },
     {
@@ -207,6 +207,10 @@
       "quantityPerUnit": "1 kilo",
       "unitPrice": "20",
       "unitsInStock": 12
+    },
+    {
+      "productName": "kkkk",
+      "id": 28
     }
   ],
   "categories": [
