@@ -7,7 +7,6 @@
       "quantityPerUnit": "50 adet",
       "unitPrice": "30",
       "unitsInStock": 53
-    
     },
     {
       "id": 2,
@@ -24,8 +23,6 @@
       "quantityPerUnit": "50 adet",
       "unitPrice": "30",
       "unitsInStock": 53
-      
-
     },
     {
       "id": 5,
@@ -209,9 +206,16 @@
       "productName": "Kornişon Turşusu",
       "quantityPerUnit": "1 kilo",
       "unitPrice": "20",
-      "unitsInStock": 12 
+      "unitsInStock": 12
+    },
+    {
+      "categoryId": 1,
+      "id": 28
+    },
+    {
+      "categoryId": 2,
+      "id": 29
     }
-
   ],
   "categories": [
     {
