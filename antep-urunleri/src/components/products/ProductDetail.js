@@ -2,7 +2,7 @@ import React from "react";
 import SelectInput from "../toolbox/SelectInput";
 import TextInput from "../toolbox/TextInput";
 
-const ProductDetail = ({categories, product, onSave, onChange}) => {
+const ProductDetail = ({categories, product, onSave, onChange,errors}) => {
   return (
     <form onSubmit={onSave}>
       <h2>{product.id ? "Güncelle" : "Ekle"}</h2>
@@ -11,21 +11,21 @@ const ProductDetail = ({categories, product, onSave, onChange}) => {
         label="Ürün İsmi"
         value={product.productName}
         onChange={onChange}
-        error="Hata"
+        error={errors.productName}
       />
       <TextInput
         name="unitPrice"
         label="Birim Fiyatı"
         value={product.unitPrice}
         onChange={onChange}
-        error="Hata"
+        error={errors.unitPrice}
       />
       <TextInput
         name="quantityPerUnit"
         label="Birim Miktarı"
         value={product.quantityPerUnit}
         onChange={onChange}
-        error="Hata"
+        error={errors.quantityPerUnit}
       />
       
       <TextInput
@@ -33,7 +33,7 @@ const ProductDetail = ({categories, product, onSave, onChange}) => {
         label="Stok Miktarı"
         value={product.unitsInStock}
         onChange={onChange}
-        error="Hata"
+        error={errors.unitsInStock}
       />
 
       <SelectInput
@@ -45,7 +45,7 @@ const ProductDetail = ({categories, product, onSave, onChange}) => {
           value: category.id,
           text: category.categoryName
         }))}onChange={onChange}
-        error="Hata"
+        error={errors.categoryId}
       ></SelectInput>
 
       <button type="submit" className="btn btn-success">
